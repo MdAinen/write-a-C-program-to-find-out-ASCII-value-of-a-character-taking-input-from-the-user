@@ -1,1 +1,12 @@
-# write-a-C-program-to-find-out-ASCII-value-of-a-character-taking-input-from-the-user
+#include <stdio.h>
+
+int main() {
+  char character;
+
+  printf("Enter a character: ");
+  scanf("%c", &character);
+
+  printf("The ASCII value of %c is %d\n", character, character);
+
+  return 0;
+}
